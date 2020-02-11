@@ -1,0 +1,25 @@
+.TaskPanel {
+    width: 400px;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    background-color: #F7F8FE;
+    padding: 10px 20px;
+    margin: 20px;
+    height: fit-content;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-weight: 18px;
+        letter-spacing: 1px;
+    }
+    &__task-count{
+        margin-right: 20px;
+    }
+}

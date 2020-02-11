@@ -1,0 +1,23 @@
+.Task {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 3px 7px 0 rgba(110, 142, 247, 0.13);
+    border: 1px solid #E1E2E8;
+    border-radius: 3px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+    &__main{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__editing{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+}
+
